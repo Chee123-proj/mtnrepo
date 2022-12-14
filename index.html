@@ -1,0 +1,196 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="ourproject.css" />
+    <title> MAIN PROJECT</title>
+  </head>
+  <body>
+
+    <br> <br> <br> <br>  <br>  <h1> WELCOME TO MUND TELECOM LTD</h1>
+
+   <p class="p4"> Where we take the Company to the next level at the top.</p>
+    
+    <div id="container">
+        <div class="navbar">
+            <img src="Icon.png" width="60" height="50">
+          <h1 class="nav">MUND Telecom<span>LTD</span></h1>
+    
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus1.html">About Us</a></li>
+            <li><a href="#"> Services <i class="fas fa-caret-down"></i></a>
+    
+                <div class="dropdown">
+                    <ul>
+                      
+                      <li><a href="FAQ.html">FAQ</a></li>
+                    </ul>
+                  </div>
+            </li>
+            </li>
+            <li><a href="ContactUs.html">Contact us</a></li>
+          </ul>
+          
+        </div>
+    
+    
+
+    <div class="textcenter">
+
+ 
+         <img src="mission.jpg" width="350" height="250"
+         style="margin-top: 200px;">
+           <br> <p>THE MISSION OF MUND TELECOM LTD: <br> 
+                <p id="p2"> The mission of "MUND TELECOM LTD" is to 
+                become the best telecom provider in the whole 36 states of Nigeria. <br>
+                It is our full responsibilty to provide our communities with more progress
+                high quality communication technology services that enhance the value <br>
+                of life and more economic development in the area we serve. We continue to take pride
+                in bringing more excellent service, integrity and community involvement <br> and also,
+                we hope to expand more of our services in the whole 36 states of Nigeria.
+
+
+
+               </p>
+                </p>
+            
+
+           
+            <p id="show" style="text-decoration: none ;"> Click here to know more about the vision</p>
+            <img id="picture"/>
+            <p id="under"></p>
+            <p id="we"></p>
+
+          <br> <p>OUR FUTURE PRODUCTS FOR MUND TELECOM MODEMS</p>
+
+          <section>
+
+            <div class="div">
+              <img src="Modem1.jpeg" width="150" height="90" style="border-radius: 100px;
+              margin-top: 90px; margin-left: 20px;">
+
+              <p class="p9" style="text-decoration: none;">MUND Telecom Modem <br>
+              Design one</p>
+            </div>
+            <div class="div">
+              <img src="Modem4.jpeg" width="150" height="90" style="border-radius:100px;
+              margin-top: 90px; margin-left: 20px;">
+
+              <p class="p10" style="text-decoration: none;">
+              MUND Telecom Modem <br>
+            Design Two</p>
+            </div>
+            <div class="div">
+              <img src="Modem3.jpeg" width="150" height="90" style="border-radius:100px;
+              margin-top: 90px; margin-left: 20px;">
+             <p class="p11" style="text-decoration: none;">
+              MUND Telecom Modem <br>
+            Design Three</p>
+
+            </div>
+          </section>
+
+            <!--<marquee behaviour="slide" direction="right" scrollamount="8">
+              <img src="Modem1.jpeg" width="350" height="250" alt="First Modem">
+              <img src="Modem2.jpeg" width="350" height="250" alt=" Second Modem">
+              <img src="Modem3.jpeg" width="350" height="250" alt="Third Modem">
+            </marquee> -->
+
+          <b id="show2">Click here to show more about the specs of the modems for MUND TELECOM LTD</b>
+
+          <h3 id="h3"></h3>
+           <ul id="specs1">
+
+            <fieldset style="width: 400px; height: 270px; border-radius: 20px; position: absolute;">
+              <li >Specifically works for LAN, MAN, WAN since its a broadband service.</li>
+              <li >Number of ports: At least 3 or more.</li>
+              <li > Frequency Band: Runs in Hz and KHz</li>
+              <li>Has two Antennas for more connectivity</li>
+              <li>Flat and much portable to use.</li>
+              <li>Number of users: Limited.</li>
+              <li>Coverage: All</li>
+            </fieldset>
+
+            
+
+           </ul>
+    <br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><p id="footer" class="p7">
+            MUND TELECOM LTD &copy; 2022 All right Reserved.
+          </p>
+
+  
+
+        
+        
+<script>
+    let show = document.getElementById("show")
+
+    let show2 = document.getElementById("show2")
+
+    show2.addEventListener("click", create);
+
+    show.addEventListener("click", vision);
+
+    show.addEventListener("mouseout",back);
+
+    function create() {
+
+     
+     document.getElementById("h3").innerHTML = "The following specs for the three modems which works in the same Functionality";
+    
+     var a = document.getElementById("specs1");
+
+    
+
+    }
+
+   
+
+    function vision() {
+
+        var z = document.getElementById("picture");
+
+        document.getElementById("picture").src = "vision2.jpg";
+
+        z.style.width = "350px";
+        z.style.height = "250px";
+        document.getElementById("under").innerHTML = "THE VISION OF MUND TELECOM:"
+
+
+        document.getElementById("we").innerHTML = "The vision of MUND TELECOM LTD is to help to visualize and try to know more of the perspective of the users which is the people in all around the 36 states of <br>Nigeria and therefore, we also vow to always bring the best solution that we can in order to understand the customer needs <br> and deliver the best solution that is much available to the customer which we bring customer's satisfaction.";
+
+
+        document.getElementById("we").style.textDecoration = "none";
+
+        document.getElementById("we").style.fontWeight = "normal";
+
+        document.getElementById("we").style.color = "black";
+
+        document.getElementById("we").style.textAlign = "justify";
+
+        document.getElementById("we").style.fontFamily = "Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+
+        
+
+        info.innerHTML = "Click more";
+
+    }
+
+    function back() {
+        document.body.style.backgroundColor = "lightblue";
+        document.getElementById("show").innerHTML = "Click here";
+
+    }
+</script>
+    
+    </div>
+
+</div>
+
+    
+
+    
+  </body>
+</html>

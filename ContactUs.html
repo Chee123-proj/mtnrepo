@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CONTACT US</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="
+    sha384-wvfXpqZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFINEevoEH3S10sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="all.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .contact {
+            position: relative;
+            min-height: 100vh;
+            padding: 50px 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image: url(myimage2.jpg);
+            background-size: cover;
+        }
+        
+        .contact .content {
+            text-align: center;
+            max-width: 800px;
+        }
+        
+        .contact .content h2 {
+            font-size: 36px;
+            font-weight: 500;
+            color: #fff;
+        }
+        
+        .contact .content p {
+            font-weight: 300;
+            color: #fff;
+        }
+        
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30%;
+        }
+        
+        .container .contactInfo {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .container .contactInfo .box {
+            position: relative;
+            padding: 20px 0;
+            display: flex;
+        }
+        
+        .container .contactInfo .box .icon {
+            min-width: 60px;
+            height: 60px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 22px;
+        }
+        
+        .container .contactInfo .box .text {
+            display: flex;
+            margin-left: 20px;
+            font-size: 16px;
+            color: #fff;
+            flex-direction: column;
+            font-weight: 300;
+        }
+        
+        .container .contactInfo .box .text h3 {
+            font-weight: 500;
+            color: #00bcd4;
+        }
+        
+        .contactForm {
+            width: 40%;
+            padding: 40px;
+            background-color: #fff;
+        }
+        
+        .contactForm h2 {
+            font-size: 30px;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        .contactForm .inputBox {
+            position: relative;
+            width: 100%;
+            margin-top: 10px;
+        }
+        
+        .contactForm .inputBox input,
+        .contactForm .inputBox textarea {
+            width: 100%;
+            padding: 5px 0;
+            font-size: 16px;
+            margin: 10px 0;
+            border: none;
+            border-bottom: 2px solid #333;
+            outline: none;
+            resize: none;
+        }
+        
+        .contactForm .inputBox span {
+            position: absolute;
+            left: 0;
+            padding: 5px 0;
+            font-size: 16px;
+            margin: 10px 0;
+            pointer-events: none;
+            transition: 0.5s;
+            color: #666;
+        }
+        
+        .contactForm .inputBox input:focus~span,
+        .contactForm .inputBox input:valid~span,
+        .contactForm .inputBox textarea:focus~span,
+        .contactForm .inputBox textarea:valid~span {
+            color: #e91e63;
+            font-size: 12px;
+            transform: translateY(-20px);
+        }
+        
+        .contactForm .inputBox input[type="submit"] {
+            width: 100px;
+            background: #00bcd4;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 18px;
+        }
+        
+        @media(max-width: 991px) {
+            .contact {
+                padding: 50px;
+            }
+            .container {
+                flex-direction: column;
+            }
+            .container .contactInfo {
+                margin-bottom: 40px;
+            }
+            .container .contactInfo .contactForm {
+                width: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="">
+        <section class="contact">
+            <div class="content">
+                <h2>Contact Us</h2>
+                <p></p>
+            </div>
+            <div class="container">
+                <div class="contactInfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p style="color: black;">NIIT IKEJA <br>112, Awolowo Way, Opposite Zenith Bank, Lagos, Ikeja<br></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p style="color: black;">0903-788-3117</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p style="color: black;">MUNDTelecomsLTD@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactForm">
+                    <form action="">
+                        <h2>send Message</h2>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span>Fullname</span>
+                        </div>
+
+                        <div class="inputBox">
+                            <input type="email" name="" required="required">
+                            <span id="email">Email</span>
+                        </div>
+
+                        <div class="inputBox">
+                            <p id="count1"></p>
+                            <p id="count_message"></p>
+                            <p id="chars"></p>
+                            <textarea required="required" id="count" maxlength="50"></textarea>
+                            <span>Type your message....</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" id="send" name=" " value="Send">
+                        </div>
+                    </form>
+                </div>
+        </section>
+        <script>
+            let charcount = 0;
+
+            var x = document.getElementById("send").innerHTML;
+            var x = "Sent Successfully! Welcome ";
+            alert(x);
+            console.log(x);
+            count.oninput = function() {
+                document.getElementById("count_message").innerHTML = count.value;
+                charcount += 1;
+                document.getElementById("count1").innerHTML = "Character cant be more than 50";
+                document.getElementById("chars").innerHTML = "Total Character is...." + charcount;
+
+            }
+        </script>
+    </form>
+
+</body>
+
+</html>
+
+</html>
