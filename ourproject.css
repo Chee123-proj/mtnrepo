@@ -4,7 +4,7 @@
 }
  body {
     background-image: url(Picture6.jpeg);
-    width: 500px;
+    width: 550px;
     height: 738px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@ button:hover {
 
 #footer {
   background-color: black;
-  width: 123%;
+  width: 127%;
   height: 70px;
   text-decoration: none;
   
